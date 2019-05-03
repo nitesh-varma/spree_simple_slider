@@ -6,7 +6,7 @@ module Spree
       items=""
 
       slides.each do |i|
-        items+="<div class='im'>#{image_tag i.img.url(:slide)}</div>"
+        items+="<div class='im'>#{link_to(image_tag(i.img.url(:slide), alt: i.name), i.img.url || 'javascript:void(0)')}</div>"
       end
 
       content="
