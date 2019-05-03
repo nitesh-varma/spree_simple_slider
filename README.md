@@ -6,7 +6,7 @@ Simple Spree extension with Slick slider
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_simple_slider', github: 'ltSites/spree_simple_slider'
+  gem 'spree_simple_slider', github: 'nitesh-varma/spree_simple_slider'
   ```
 
 2. Install the gem using Bundler:
@@ -24,7 +24,7 @@ Simple Spree extension with Slick slider
   If your server was running, restart it so that it can find the assets properly.
 
 ## Add slider to view
-Insert it to your spree view
+Insert it to your spree view, image tag will be inside link in slider
 ```shell
 <%= itsites_simple_slider %>
 ```

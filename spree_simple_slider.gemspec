@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
   s.description = 'Spree extension with Slick slider'
   s.required_ruby_version = '>= 2.2.7'
 
-  s.author    = 'ItSites'
-  s.email     = 'hello@itsites.ru'
-  s.homepage  = 'https://github.com/ltSites/spree_simple_slider'
+  s.author    = 'Nitesh Varma'
+  s.email     = 'varmanitesh91@gmail.com'
+  s.homepage  = 'https://github.com/nitesh-varma/spree_simple_slider'
   s.license = 'BSD-3-Clause'
 
   # s.files       = `git ls-files`.split("\n").reject { |f| f.match(/^spec/) && !f.match(/^spec\/fixtures/) }
